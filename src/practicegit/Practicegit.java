@@ -11,11 +11,29 @@ package practicegit;
  */
 public class Practicegit {
 
+    private String name;
+      public String getName() {
+        return name;
+    }
+
+    /**
+     * @param name the name to set
+     */
+    public void setName(String name) {
+        this.name = name;
+    }
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+       
+        
         // TODO code application logic here
+
+    /**
+     * @return the name
+     */
+  
     }
     
 }
